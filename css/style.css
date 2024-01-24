@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
+header{
+    width: 100%;
+    height: 900px;
+    background-image: conic-gradient( #59B9FF 0% 50%, black 50% 100%);
+    
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+@media(min-width:1440){
+    .container{
+        width: 1140px;
+    }
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+
+}
+
+.nav__item {
+    margin: 0px 50px 0px 50px;
+}
+
+.nav__link {
+    color: white;
+    border-bottom: 2px solid transparent;
+    
+
+}
+
+.nav__link:hover {
+    color: yellow;
+    border-color: yellow;
+}
+
+.nav__btn {
+    width: 178px;
+    height: 62px;
+    background-color: #59B9FF;
+    border: 2px solid white;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.nav__btns{
+    display: flex;
+    
+}
+.nav__btn--mobil{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.nav__btn--mobil span{
+    width: 20px;
+    height: 3px;
+    background-color:white;
+    border-radius: 2px;
+    margin-left: 20px;
+    
+    
+}
+.left__box{
+    display: flex;
+}
+.left__logo{
+    width: 32px;
+    height: 32px;
+    
+}
+.left__title{
+    color: #57B8FF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.left__text1{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.left__text2{
+    color: #999;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+.left__btns{
+    margin-top: 53px;
+}
+.btn1{
+    width: 203px;
+    height: 70px;
+    background-color: #57B8FF;
+    color: white;
+    border: 2px solid #57B8FF;
+    transition: 0.4s;
+}
+.btn1:hover {
+    width: 203px;
+    height: 70px;
+    background-color: black;
+    color: #57B8FF;
+    border: 2px solid #57B8FF;
+}
+
+.btn2 {
+    width: 203px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    border: 2px solid  black;
+}
+
+.btn2:hover {
+    width: 203px;
+    height: 70px;
+    background-color: #57B8FF;
+    color: white;
+    border: 2px solid #57B8FF;
+    transition: 0.4s;
+}
+.right__photo{
+    width: 500px;
+    height: 518px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sponsors{
+    width: 100%;
+    height: 500px;
+    background-color: #FDD14C;
+}
+.sponsors__title{
+    color: #222730;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 128px;
+}
+.sponsors__text{
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.sponsors__box{
+
+    margin-top: 41px;
+}
+.spors__photo{
+    width: 100%;
+}
+.spors{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.left__box{
+    padding-top: 129px;
+}
+.spors__box {
+    display: flex;
+    padding-top: 129px;
+}
+
+.spors__logo {
+    width: 32px;
+    height: 32px;
+
+}
+
+.spors__title {
+    color: #57B8FF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.spors__text1{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 64px;
+    margin-top: 10px;
+}
+.spors__text2{
+    color: rgba(223, 223, 223, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 38px;
+}
+.spors__btn{
+    width: 203px;
+    height: 70px;
+    background-color: rgba(87, 184, 255, 1);
+    border: 2px solid rgba(87, 184, 255, 1);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 75px;
+    transition: 0.4s;
+}
+.spors__btn:hover{
+    color: rgba(87, 184, 255, 1);
+    background-color: black;
+}
+/* .spors__boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+} */
